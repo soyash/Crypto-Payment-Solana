@@ -1,0 +1,22 @@
+{
+  "name": "crypto-payments-backend",
+  "version": "1.0.0",
+  "description": "Crypto to fiat payments via UPI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.73.3",
+    "axios": "^1.3.4",
+    "bip39": "^3.1.0",
+    "body-parser": "^1.20.2",
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
