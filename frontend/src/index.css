@@ -1,0 +1,171 @@
+@import url("https://bootswatch.com/5/litera/bootstrap.min.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* profile-header styles */
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+}
+
+/* account-info styles */
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-info {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px 0px 10px;
+}
+
+.card-balance-fiat {
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-crypto-img {
+  width: 35px;
+  height: 35px;
+  margin: 8px;
+}
+
+.alert {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 12px;
+}
+
+.link-width {
+  width: 65px;
+}
+
+.link-img {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.link {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.card {
+  margin-bottom: 0;
+}
+
+/* ////////////////////////////////// Bank transfer ////////////////////////////////// */
+
+.form-container {
+  margin: 20px;
+}
+
+/* ////////////////////////////////// Confirm payment ////////////////////////////////// */
+
+.confirm-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.amt-input {
+  width: 70px;
+  margin: 15px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #38B6FF;
+  margin: 5px;
+}
+
+.btn-bottom-right {
+  margin: 0;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #38B6FF;
+  border-color: #38B6FF;
+}
+
+.amt-div {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.amt-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-select {
+  padding: 5px;
+  margin-top: 6px;
+  border-radius: 7px;
+  border-color: #38B6FF;
+}
+
+
+/* ////////////////////////////////// Payment success ////////////////////////////////// */
+
+.payment-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ////////////////////////////////// QR Scan ////////////////////////////////// */
+
+.scan-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-show-scanner {
+  margin: 8px;
+}
